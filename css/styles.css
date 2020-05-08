@@ -90,6 +90,10 @@ h3{
   background-color: #05386B;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
 }
 
 .topnav a {
