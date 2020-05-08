@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Contact me</title>
   <link rel="stylesheet" href="css/subpages.css">
-
+  <script src="validator.js"></script>
 </head>
 
 <body>
@@ -13,14 +13,22 @@
   <p>hanusniak.michal@gmail.com</p>
   <p>+48 736 057 656</p>
   <hr>
-  <form action="mailto:hanusniak.michal@gmail.com" method="post" enctype="text/plain">
-    <label>Your Name:</label>
-    <input type="text" name="Your Name" value=""><br>
-    <label>Your Email:</label>
-    <input type="email" name="Your Email" value=""><br>
-    <label>Your Message</label><br>
-    <textarea name="Your Message" rows="10" cols="30"></textarea><br>
-    <input type="submit" name="">
+  <form name="contactForm" onsubmit="return validateForm()" action="mailto:hanusniak.michal@gmail.com" method="post">
+      <h2>Application Form</h2>
+      <div class="row">
+          <label>Full Name</label>
+          <input type="text" name="name">
+          <div class="error" id="nameErr"></div>
+      </div>
+      <div class="row">
+          <label>Email Address</label>
+          <input type="text" name="email">
+          <div class="error" id="emailErr"></div>
+      </div>
+
+      <div class="row">
+          <input type="submit" value="Submit">
+      </div>
   </form>
 </body>
 

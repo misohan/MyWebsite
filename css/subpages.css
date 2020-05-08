@@ -49,3 +49,33 @@ a {
 a:hover{
   color: white;
 }
+
+.topnav {
+  overflow: hidden;
+  background-color: #40bad5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+  width: 100%;
+  margin-left: 0px;
+}
+
+.button {
+  background: #05386B;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background: #40bad5;
+}
