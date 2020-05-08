@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -14,6 +15,7 @@ h2{
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   color: #05386B;
+  padding-bottom: 10px;
 
 }
 h3{
@@ -21,6 +23,18 @@ h3{
   color: #05386B;
 
 }
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #40bad5 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
 .profile {
   border-radius: 100%;
 
@@ -32,6 +46,7 @@ h3{
 
 }
 .middle-container{
+  margin: 90px 0;
 
 }
 .bottom-container{
@@ -56,7 +71,7 @@ h3{
 }
 .bottom-cloud{
   position: absolute;
-  left: 500px;
+  left: 400px;
   bottom: 300px;
 }
 .top-cloud{
