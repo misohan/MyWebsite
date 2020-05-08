@@ -4,31 +4,31 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
 }
-h1{
+
+h1 {
   color: #05386B;
   font-size: 5rem;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
-
 }
-h2{
+
+h2 {
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   color: #05386B;
   padding-bottom: 10px;
-
 }
-h3{
+
+h3 {
   font-family: 'Montserrat', sans-serif;
   color: #05386B;
-
 }
 
-p{
+p {
   line-height: 2;
 }
 
-hr{
+hr {
   border: dotted #40bad5 6px;
   border-bottom: none;
   width: 4%;
@@ -37,29 +37,27 @@ hr{
 
 .profile {
   border-radius: 100%;
-
 }
-.top-container{
+
+.top-container {
   background-color: #40bad5;
   position: relative;
   padding-top: 100px;
-
 }
-.middle-container{
+
+.middle-container {
   margin: 90px 0;
-
 }
-.bottom-container{
 
+.bottom-container {}
 
-}
-.man{
+.man {
   color: #5CDB95;
   font-style: 'Montserrat', sans-serif;
   font-weight: normal;
-
 }
-.Michal{
+
+.Michal {
   background-color: #40bad5;
   position: relative;
   width: 200px;
@@ -67,39 +65,41 @@ hr{
   border: solid 10px;
   padding: 20px;
   left: 750px;
-
 }
-.bottom-cloud{
+
+.bottom-cloud {
   position: absolute;
   left: 400px;
   bottom: 300px;
 }
-.top-cloud{
+
+.top-cloud {
   position: absolute;
   right: 500px;
   top: 50px;
 }
-.ads-logo{
+
+.ads-logo {
   width: 25%;
   height: 25%;
   float: left;
 }
-.stamina{
+
+.stamina {
   width: 20%;
   height: 20%;
   margin-left: 10px;
   margin-right: 25px;
   float: right;
-
-
 }
-.skill-row{
+
+.skill-row {
   margin: 100px auto 100px auto;
   width: 50%;
   text-align: left;
   line-height: 2;
-
 }
+
 .topnav {
   overflow: hidden;
   background-color: #05386B;
@@ -108,7 +108,6 @@ hr{
   position: fixed;
   top: 0;
   width: 100%;
-
 }
 
 .topnav a {
@@ -128,4 +127,39 @@ hr{
 .topnav a.active {
   background-color: #05386B;
   color: white;
+}
+
+.button {
+  background: #05386B;
+  background-image: -webkit-linear-gradient(top, #05386B, #05386B);
+  background-image: -moz-linear-gradient(top, #05386B, #05386B);
+  background-image: -ms-linear-gradient(top, #05386B, #05386B);
+  background-image: -o-linear-gradient(top, #05386B, #05386B);
+  background-image: linear-gradient(to bottom, #05386B, #05386B);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  box-shadow: 1px 1px 20px 0px #FFFFFF;
+  -webkit-box-shadow: 1px 1px 20px 0px #FFFFFF;
+  -moz-box-shadow: 1px 1px 20px 0px #FFFFFF;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background: #1E62D0;
+  border: solid #05386B 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
