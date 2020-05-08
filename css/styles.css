@@ -85,3 +85,28 @@ h3{
   line-height: 2;
 
 }
+.topnav {
+  overflow: hidden;
+  background-color: #05386B;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #40bad5;
+  color: #05386B;
+}
+
+.topnav a.active {
+  background-color: #05386B;
+  color: white;
+}
